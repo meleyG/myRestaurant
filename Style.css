@@ -1,0 +1,58 @@
+
+
+/*this for the whole navigation item box*/
+#sideSection {
+    position:fixed;
+    min-width: 290px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+/*this for the whole ul box*/
+#sideSection ul {
+    height: 90%;/*if you set this to 20% run it and see what happens*/
+    overflow-y:auto;/*The overflow property controls what happens to content that is too big to fit into an area. if viewing on a smaller screen, setting it to auto will adjust the content to fit the screen by turning it into a scrolling type screen where you can scroll up or down to select what you want*/
+    overflow-x: hidden;/*this is the same for above just on the x-axis of the sidesection navigation bar and its hidden , but if you want it to be visible then set to auto or scroll*/
+  }
+  /*this for the li boxes in ul box*/
+ #sideSection li {
+    color: #4d4e53;
+    border-top: 1px solid;
+    list-style: none;/*this is to remove the dot that comes with using the list(li)*/
+    width: 100%;
+  }
+  /*this for the individual options in the navigation*/
+.nav-item {
+    display: block;
+    padding: 10px 30px;
+    color: #4d4e53;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  h2{
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  /*this for the whole design of the contents displayed aftrer choosing an item*/
+ #doc {
+        position: absolute;
+        margin-left: 310px;/*this sets all the content in the main tag/element toward the left side of the screen. the higher the number, the closer to the left side it will get and the farther away from the navigation side bar it will be*/
+        padding: 20px;
+ }
+ 
+ img {
+    width: 300px;
+ }
+ #doc tr{
+  text-align: center;
+ }
+ /*for olive garden document*/
+body {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAQMAAABJtOi3AAAABlBMVEX4+Pj09PQf/c7fAAAAGklEQVR4Xq3MIQEAAADDIPqX/kvMIMEWEm8O7b0/wewc/NcAAAAASUVORK5CYII=");
+   
+ }
+  
